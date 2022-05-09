@@ -12,6 +12,13 @@ main{
   justify-content: center;
   align-items: center;
   max-width: 100%;
+  flex-direction: column;
+}
+header{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
   min-height: 100vh;
   flex-direction: column;
 }
@@ -20,4 +27,12 @@ article{
   justify-content: center;
   align-items: center;
   max-width: 100%;
+  /* min-height: 100vh; */
+}
+footer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  min-height: 25px;
 }

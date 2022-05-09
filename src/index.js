@@ -4,6 +4,7 @@ import Header from './header';
 import './index.css';
 
 import Article from './article';
+import Footer from './footer';
 
 ReactDOM.render(
   <Header />,
@@ -11,6 +12,11 @@ ReactDOM.render(
 );
 
 ReactDOM.render(
-  <Article/>,
+  <Article />,
   document.querySelector('article')
+);
+
+ReactDOM.render(
+  <Footer />,
+  document.querySelector('footer')
 );
