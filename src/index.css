@@ -55,3 +55,6 @@ footer{
   background: rgba(255,0,0,0.3);
 
 }
+img{
+  max-width:100%;
+}
