@@ -83,6 +83,7 @@ class Article extends Component {
         const OJ=new Cards(text);
         OJ.openCard();
         document.querySelector('#stylle').insertAdjacentHTML('afterbegin',`<img src={Image} alt='image' />`);
+
       }}>
       <p style={{width:"400px",margin:"3%",maxWidth:"100%"}}>Кликнуть и откроется описание!</p>
         <img src={Image} alt='image' style={{width:"300px"}}/>
