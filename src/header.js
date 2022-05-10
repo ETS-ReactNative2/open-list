@@ -15,6 +15,9 @@ function rus(){ // этот фанкшин был переделан!
 
   document.querySelector('body > main:nth-child(1) > header:nth-child(1) > p:nth-child(4)').style.cssText=`display:none`;
   document.querySelector('body > main:nth-child(1) > header:nth-child(1) > p:nth-child(5)').style.cssText=`display:block`;
+
+  document.querySelector('body > main:nth-child(1) > sectionverh:nth-child(2) > div:nth-child(2)').style.cssText=`display:block`;
+  document.querySelector('body > main:nth-child(1) > sectionverh:nth-child(2) > div:nth-child(1)').style.cssText=`display:none`;
 }
 
 const eng=()=>{
@@ -27,6 +30,9 @@ const eng=()=>{
 
   document.querySelector('body > main:nth-child(1) > header:nth-child(1) > p:nth-child(4)').style.cssText=`display:block`;
   document.querySelector('body > main:nth-child(1) > header:nth-child(1) > p:nth-child(5)').style.cssText=`display:none`;
+
+  document.querySelector('body > main:nth-child(1) > sectionverh:nth-child(2) > div:nth-child(2)').style.cssText=`display:none`;
+  document.querySelector('body > main:nth-child(1) > sectionverh:nth-child(2) > div:nth-child(1)').style.cssText=`display:block`;
 }
 
 window.addEventListener("DOMContentLoaded",()=>{
