@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 
 
 
-function rus(){ // этот фанкшин был переделан! 
+function rus(){ // этот фанкшин был переделан!
   console.log("rus");
   document.querySelector('#en').style.cssText=`display:none;`
   document.querySelector('#ru').style.cssText=`display:flex;`
@@ -56,7 +56,7 @@ class Header extends Component {
     <h1>Cards</h1>
     <h1>Карты</h1>
     <p>With epic-technological disclosure with inadequate click "any character"</p>
-    <p>С эпически- технологическим раскрытием при неадекватном клике "любым персонажем"</p>
+    <p style={{width:"500px",maxWidth:"100%"}}>С эпически- технологическим раскрытием при неадекватном клике "любым персонажем"</p>
     </React.Fragment>
     );
   }
